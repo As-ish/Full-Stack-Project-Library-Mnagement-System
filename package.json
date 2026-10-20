@@ -1,0 +1,19 @@
+{
+  "name": "reading-room-backend",
+  "version": "1.0.0",
+  "description": "Backend API for The Reading Room - Library Management System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node src/seed.js --reset",
+    "test": "node test/smoke.test.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
